@@ -2,24 +2,41 @@
 <html>
   <head>
     <title>Youtube Clone</title>
-
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>YouTube</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
   </head>
+
   <body class="container">
-    <header id="header">
-      <h2>HEADER</h2>
+
+    <header class="main-header">
+        <div class="logo-container">
+            <i class="fas fa-bars"></i>
+            <i class="fab fa-youtube logo"></i>
+            <p>YouTube</p>
+        </div>
+
+        <div class="search-tool">
+            <input type="text" id="search-bar">
+            <button id="search-button"><i class="fas fa-search"></i></button>
+        </div>
+
+        <div class="dashboard-min">
+            <i class="fas fa-video"></i>
+            <i class="fas fa-th"></i>
+            <i class="fas fa-comment"></i>
+            <i class="fas fa-bell"></i>
+            <img src="images/photo.jpg" alt="Profile Picture" class="profile-pic">
+        </div>
     </header>
-    <div class="row">
-      <section class="col-md-8">
-        <div id="embedding-video">
-          <div id="embedded-video">
-            <h2>EMBEDDED VIDEO</h2>
-          </div>
+
+    
+
           <div id="description">
             <h2>VIDEO DESCRIPTION</h2>
           </div>
@@ -28,6 +45,7 @@
           <h2>LIST OF COMMENTS</h2>
         </div>
       </section>
+
       <aside id="sidebar" class="col-md-4">
         <h2>LIST OF VIDEO</h2>
       </aside>
