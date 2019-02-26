@@ -328,6 +328,47 @@ body {
 .video:hover .clock {
   opacity: 1;
 }
+
+/*** COMMENTS ***/
+.comment {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.comment .avatar {
+  margin-right: 10px;
+}
+
+.comment .author {
+  color: #0A0A0A;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.8rem;
+}
+
+.comment .date {
+  color: #606060;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.8rem;
+  text-transform: none;
+}
+
+.comment .text {
+  color: rgb(17, 17, 17);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.comment .actions {
+  font-size: 13.3333px;
+  color: #909090;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
 /**** ADDED FOR SWITCH ***/
 .switch {
   font-size: 1rem;
