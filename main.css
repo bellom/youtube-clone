@@ -27,6 +27,25 @@ h1 {
   font-weight: 400;
 }
 
+.video .time {
+  position: relative;
+  right: -110px;
+  color: white;
+  bottom: 20px;
+  font-size: 12px;
+}
+
+.video .clock {
+  position: relative;
+  top: -88px;
+  color: white;
+  left: 137px;
+  opacity: 0;
+}
+
+.video:hover .clock {
+  opacity: 1;
+}
 /**** ADDED FOR SWITCH ***/
 .switch {
   font-size: 1rem;
