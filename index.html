@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
   </head>
   <body class="container">
     <header id="header">
@@ -29,7 +30,32 @@
         </div>
       </section>
       <aside id="sidebar" class="col-md-4">
-        <h2>LIST OF VIDEO</h2>
+        <div class="d-flex flex-row justify-content-between">
+          <div>Up next</div>
+          <div>
+            <span class="switch">
+              <input type="checkbox" class="switch" id="switch-id">
+                <label for="switch-id">Autoplay</label>
+            </span>
+          </div>
+        </div>
+        <div>
+          <div class="video">
+            <div>
+              <!-- <iframe width="175" height="90"
+                src="https://www.youtube.com/embed/tgbNymZ7vqY">
+              </iframe> -->
+              <img id="img" class="style-scope yt-img-shadow" alt="" src="https://i.ytimg.com/vi/mENDYhfxH-o/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&amp;rs=AOn4CLBa2ZQNkMgNzYzB395dEAE7FQgFkA" width="168">
+            </div>
+            <div class="details">
+              <p class="title">Contributing to Open Source Part II: The Real Way</p>
+              <div class="more">
+                <div class="author">The Odin Project</div>
+                <div class="views">27K views</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </aside>
     </div>
 
