@@ -13,5 +13,4 @@ This have been done by
 * Mael FOSSO https://github.com/maelfosso
 
 # The Website
-Follow the link to access to the website:
-https://rawcdn.githack.com/bellom/youtube-clone/591f460802c43251ec5b3f1a241cf53ac467129e/index.html
+Follow the link to access to the website:https://rawcdn.githack.com/bellom/youtube-clone/726ed9d3a2c4fadfadb03ba711be66c3611c3881/index.html
