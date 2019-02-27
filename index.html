@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Youtube Clone</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700" rel="stylesheet">
@@ -7,9 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>YouTube</title>
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
@@ -40,212 +38,201 @@
 
     <div class="page-content">
         <div class="video-column">
-        <div class="video-player">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/YfaMiPvne_Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+          <div class="video-player">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/YfaMiPvne_Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
 
-        <h3 class="video-title"></h3>
+          <div class="video-info-main">
+              <h4 class="view-counter">22,333,232 Views</h4>
 
-        <div class="video-info-main">
-            <h4 class="view-counter">22,333,232 Views</h4>
+              <div class="video-info-right">
+                  <div class="likes-section">
+                      <i class="fas fa-thumbs-up"></i>
+                      <p class="likes-counter">5K</p>
+                      <i class="fas fa-thumbs-down"></i>
+                      <p class="dislikes-counter">2</p>
+                  </div>
 
-            <div class="video-info-right">
-                <div class="likes-section">
-                    <i class="fas fa-thumbs-up"></i>
-                    <p class="likes-counter">5K</p>
-                    <i class="fas fa-thumbs-down"></i>
-                    <p class="dislikes-counter">2</p>
+                  <div class="share-section">
+                      <i class="fas fa-share"></i>
+                      <p>Share</p>
+
+                      <i class="fas fa-plus"></i>
+                      <p>Save</p>
+
+                      <i class="fas fa-ellipsis-h"></i>
+                  </div>
+              </div>
+          </div>
+
+          <div class="description-box">
+              <img src="images/photo.jpg" alt="Profile Picture" class="profile-pic">
+
+              <div class="description-div">
+                  <h5>Microverse </h5>
+                  <p>Published on Feb 26, 2019</p>
+                  <p>Awesome video. You should totally watch it if you wanna know more about microverse!. This is how important the word microverse is....Leave a comment and like and don't forget to subscribe!</p>
+              </div>
+          </div>
+
+
+
+          <div id="comments">
+            <div class="comment">
+              <div class="avatar">
+                <img alt="Wing N." class="img-responsive rounded-circle" src="https://yt3.ggpht.com/-tVdji_W8sak/AAAAAAAAAAI/AAAAAAAAAAA/mFtCyL-VwY0/s48-c-k-no-mo-rj-c0xffffff/photo.jpg"/>
+              </div>
+              <div class="details">
+                <div><span class="author">Wing N.</span><span class="date">1 year ago (edited)</span></div>
+                <div class="text">"use your powers for good" haha thank you for the video.﻿</div>
+                <div class="actions">
+                  <span><i class="fas fa-thumbs-up"></i> 6</span>
+                  <span><i class="fas fa-thumbs-down"></i></span>
+                  <span class="text-uppercase">REPLY</span>
                 </div>
-
-                <div class="share-section">
-                    <i class="fas fa-share"></i>
-                    <p>Share</p>
-
-                    <i class="fas fa-plus"></i>
-                    <p>Save</p>
-
-                    <i class="fas fa-ellipsis-h"></i>
+              </div>
+            </div>
+            <div class="comment">
+              <div class="avatar">
+                <img alt="Sibe Cute" class="img-responsive rounded-circle" src="https://yt3.ggpht.com/-IjCpdjoq7YM/AAAAAAAAAAI/AAAAAAAAAAA/Hq_MARG-mOQ/s48-c-k-no-mo-rj-c0xffffff/photo.jpg"/>
+              </div>
+              <div class="details">
+                <div><span class="author">Sibe Cute</span><span class="date">il y a 2 ans</span></div>
+                <div class="text">thanks a lot for video﻿﻿</div>
+                <div class="actions">
+                  <span><i class="fas fa-thumbs-up"></i> 2</span>
+                  <span><i class="fas fa-thumbs-down"></i></span>
+                  <span class="text-uppercase">REPLY</span>
                 </div>
-            </div>
-        </div>
-
-        <div class="description-box">
-            <img src="images/photo.jpg" alt="Profile Picture" class="profile-pic">
-
-            <div class="description-div">
-                <h5>Microverse </h5>
-                <p>Published on Feb 26, 2019</p>
-                <p>Awesome video. You should totally watch it if you wanna know more about microverse!. This is how important the word microverse is....Leave a comment and like and don't forget to subscribe!</p>
-            </div>
-        </div>
-
-
-
-        <div id="comments">
-          <div class="comment">
-            <div class="avatar">
-              <img class="img-responsive rounded-circle" src="https://yt3.ggpht.com/-tVdji_W8sak/AAAAAAAAAAI/AAAAAAAAAAA/mFtCyL-VwY0/s48-c-k-no-mo-rj-c0xffffff/photo.jpg"/>
-            </div>
-            <div class="details">
-              <div><span class="author">Wing N.</span><span class="date">1 year ago (edited)</span></div>
-              <div class="text">"use your powers for good" haha thank you for the video.﻿</div>
-              <div class="actions">
-                <span><i class="fas fa-thumbs-up"></i> 6</span>
-                <span><i class="fas fa-thumbs-down"></i></span>
-                <span class="text-uppercase">REPLY</span>
               </div>
             </div>
-          </div>
-          <div class="comment">
-            <div class="avatar">
-              <img class="img-responsive rounded-circle" src="https://yt3.ggpht.com/-IjCpdjoq7YM/AAAAAAAAAAI/AAAAAAAAAAA/Hq_MARG-mOQ/s48-c-k-no-mo-rj-c0xffffff/photo.jpg"/>
-            </div>
-            <div class="details">
-              <div><span class="author">Sibe Cute</span><span class="date">il y a 2 ans</span></div>
-              <div class="text">thanks a lot for video﻿﻿</div>
-              <div class="actions">
-                <span><i class="fas fa-thumbs-up"></i> 2</span>
-                <span><i class="fas fa-thumbs-down"></i></span>
-                <span class="text-uppercase">REPLY</span>
+            <div class="comment">
+              <div class="avatar">
+                <img alt="ButtonMasher" class="img-responsive rounded-circle" src="https://yt3.ggpht.com/-O_cPaifyLyw/AAAAAAAAAAI/AAAAAAAAAAA/LA_O2_ZSdjk/s48-c-k-no-mo-rj-c0xffffff/photo.jpg"/>
+              </div>
+              <div class="details">
+                <div><span class="author">ButtonMasher</span><span class="date">il y a 2 ans</span></div>
+                <div class="text">Wow this video was super helpful, clear, and concise. Thank you very much.﻿﻿</div>
+                <div class="actions">
+                  <span><i class="fas fa-thumbs-up"></i> 1</span>
+                  <span><i class="fas fa-thumbs-down"></i></span>
+                  <span class="text-uppercase">REPLY</span>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="comment">
-            <div class="avatar">
-              <img class="img-responsive rounded-circle" src="https://yt3.ggpht.com/-O_cPaifyLyw/AAAAAAAAAAI/AAAAAAAAAAA/LA_O2_ZSdjk/s48-c-k-no-mo-rj-c0xffffff/photo.jpg"/>
-            </div>
-            <div class="details">
-              <div><span class="author">ButtonMasher</span><span class="date">il y a 2 ans</span></div>
-              <div class="text">Wow this video was super helpful, clear, and concise. Thank you very much.﻿﻿</div>
-              <div class="actions">
-                <span><i class="fas fa-thumbs-up"></i> 1</span>
-                <span><i class="fas fa-thumbs-down"></i></span>
-                <span class="text-uppercase">REPLY</span>
+            <div class="comment">
+              <div class="avatar">
+                <img alt="andrewscheuermann05" class="img-responsive rounded-circle" src="https://yt3.ggpht.com/-sWhUdokHTC4/AAAAAAAAAAI/AAAAAAAAAAA/JTl_mLxNhSM/s48-c-k-no-mo-rj-c0xffffff/photo.jpg"/>
               </div>
-            </div>
-          </div>
-          <div class="comment">
-            <div class="avatar">
-              <img class="img-responsive rounded-circle" src="https://yt3.ggpht.com/-sWhUdokHTC4/AAAAAAAAAAI/AAAAAAAAAAA/JTl_mLxNhSM/s48-c-k-no-mo-rj-c0xffffff/photo.jpg"/>
-            </div>
-            <div class="details">
-              <div><span class="author">andrewscheuermann05</span><span class="date">1 year ago (edited)</span></div>
-              <div class="text">FYI: the edit button has changed to a diagonal pencil﻿</div>
-              <div class="actions">
-                <span><i class="fas fa-thumbs-up"></i> 1</span>
-                <span><i class="fas fa-thumbs-down"></i></span>
-                <span class="text-uppercase">REPLY</span>
+              <div class="details">
+                <div><span class="author">andrewscheuermann05</span><span class="date">1 year ago (edited)</span></div>
+                <div class="text">FYI: the edit button has changed to a diagonal pencil﻿</div>
+                <div class="actions">
+                  <span><i class="fas fa-thumbs-up"></i> 1</span>
+                  <span><i class="fas fa-thumbs-down"></i></span>
+                  <span class="text-uppercase">REPLY</span>
+                </div>
               </div>
             </div>
           </div>
         </div>
-
         <aside id="sidebar" class="col-md-4">
-
-
-
-    </div>
-
-
-
-
-      <aside id="sidebar" class="col-md-4">
-        <div class="d-flex flex-row justify-content-between">
-          <div>Up next</div>
+          <div class="d-flex flex-row justify-content-between">
+            <div>Up next</div>
+            <div>
+              <span class="switch">
+                <input type="checkbox" class="switch" id="switch-id">
+                  <label for="switch-id">Autoplay</label>
+              </span>
+            </div>
+          </div>
           <div>
-            <span class="switch">
-              <input type="checkbox" class="switch" id="switch-id">
-                <label for="switch-id">Autoplay</label>
-            </span>
-          </div>
-        </div>
-        <div>
-          <div class="video">
-            <div>
-              <img id="img" class="style-scope yt-img-shadow" alt="" src="https://i.ytimg.com/vi/mENDYhfxH-o/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&amp;rs=AOn4CLBa2ZQNkMgNzYzB395dEAE7FQgFkA" width="168">
-              <span class="clock"><i class="far fa-clock"></i></span>
-              <span class="time">14:25</span>
+            <div class="video">
+              <div>
+                <img class="style-scope yt-img-shadow" alt="" src="https://i.ytimg.com/vi/mENDYhfxH-o/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&amp;rs=AOn4CLBa2ZQNkMgNzYzB395dEAE7FQgFkA" width="168">
+                <span class="clock"><i class="far fa-clock"></i></span>
+                <span class="time">14:25</span>
+              </div>
+              <div class="details">
+                <p class="title">Contributing to Open Source Part II: The Real Way</p>
+                <div class="more">
+                  <div class="author">The Odin Project</div>
+                  <div class="views">27K views</div>
+                </div>
+              </div>
             </div>
-            <div class="details">
-              <p class="title">Contributing to Open Source Part II: The Real Way</p>
-              <div class="more">
-                <div class="author">The Odin Project</div>
-                <div class="views">27K views</div>
+            <div class="video">
+              <div>
+                <img class="style-scope yt-img-shadow" alt="" src="https://i.ytimg.com/vi/OZ_ieeuwrCA/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&amp;rs=AOn4CLBuC66kJnHIuV0Yk3lVckN0E15-IQ" width="168">
+                <span class="clock"><i class="far fa-clock"></i></span>
+                <span class="time">26:01</span>
+              </div>
+              <div class="details">
+                <p class="title">Aluminum and Mercury</p>
+                <div class="more">
+                  <div class="author">NileRed <i class="fas fa-check-circle"></i></div>
+                  <div class="views">11M views</div>
+                </div>
+              </div>
+            </div>
+            <div class="video">
+              <div>
+                <img class="style-scope yt-img-shadow" alt="" src="https://i.ytimg.com/vi/l4tWdTmYZoM/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&amp;rs=AOn4CLBnnQvqb5nnq-EkcM6495oiUJszsg" width="168">
+                <span class="clock"><i class="far fa-clock"></i></span>
+                <span class="time">7:48</span>
+              </div>
+              <div class="details">
+                <p class="title">19 Simple Psychological Tricks That Actually Work </p>
+                <div class="more">
+                  <div class="author">BRIGHT SIDE <i class="fas fa-check-circle"></i></div>
+                  <div class="views">23M views</div>
+                </div>
+              </div>
+            </div>
+            <div class="video">
+              <div>
+                <img class="style-scope yt-img-shadow" alt="" src="https://i.ytimg.com/vi/1z0ULvg_pW8/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&amp;rs=AOn4CLC_3z-32SF5cU1BHYpu5Dg0BbwS1g" width="168">
+                <span class="clock"><i class="far fa-clock"></i></span>
+                <span class="time">7:22</span>
+              </div>
+              <div class="details">
+                <p class="title">Hub, Switch, & Router Explained - What's the difference? </p>
+                <div class="more">
+                  <div class="author">PowerCert Animated Videos <i class="fas fa-check-circle"></i></div>
+                  <div class="views">1M views</div>
+                </div>
+              </div>
+            </div>
+            <div class="video">
+              <div>
+                <img class="style-scope yt-img-shadow" alt="" src="https://i.ytimg.com/vi/hNA7yw6Iqcc/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&amp;rs=AOn4CLAiNKTYG_zr-uxJ1bsSKdtN8NcJBg" width="168">
+                <span class="clock"><i class="far fa-clock"></i></span>
+                <span class="time">5:40</span>
+              </div>
+              <div class="details">
+                <p class="title">Why Your Aikido Will Fail on the Street -The Truth </p>
+                <div class="more">
+                  <div class="author">Aikidoflow</div>
+                  <div class="views">2.4M views</div>
+                </div>
+              </div>
+            </div>
+            <div class="video">
+              <div>
+                <img class="style-scope yt-img-shadow" alt="" src="https://i.ytimg.com/vi/lV9X2K8uEYE/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&amp;rs=AOn4CLCBC6q6dJIt2oIoGr1lDwxvk99KuQ" width="168">
+                <span class="clock"><i class="far fa-clock"></i></span>
+                <span class="time">5:06</span>
+              </div>
+              <div class="details">
+                <p class="title">How to create Data Entry Form in Excel - Ms Office?</p>
+                <div class="more">
+                  <div class="author">Vicky's Blog</div>
+                  <div class="views">3.4M views</div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="video">
-            <div>
-              <img id="img" class="style-scope yt-img-shadow" alt="" src="https://i.ytimg.com/vi/OZ_ieeuwrCA/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&amp;rs=AOn4CLBuC66kJnHIuV0Yk3lVckN0E15-IQ" width="168">
-              <span class="clock"><i class="far fa-clock"></i></span>
-              <span class="time">26:01</span>
-            </div>
-            <div class="details">
-              <p class="title">Aluminum and Mercury</p>
-              <div class="more">
-                <div class="author">NileRed <i class="fas fa-check-circle"></i></div>
-                <div class="views">11M views</div>
-              </div>
-            </div>
-          </div>
-          <div class="video">
-            <div>
-              <img id="img" class="style-scope yt-img-shadow" alt="" src="https://i.ytimg.com/vi/l4tWdTmYZoM/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&amp;rs=AOn4CLBnnQvqb5nnq-EkcM6495oiUJszsg" width="168">
-              <span class="clock"><i class="far fa-clock"></i></span>
-              <span class="time">7:48</span>
-            </div>
-            <div class="details">
-              <p class="title">19 Simple Psychological Tricks That Actually Work </p>
-              <div class="more">
-                <div class="author">BRIGHT SIDE <i class="fas fa-check-circle"></i></div>
-                <div class="views">23M views</div>
-              </div>
-            </div>
-          </div>
-          <div class="video">
-            <div>
-              <img id="img" class="style-scope yt-img-shadow" alt="" src="https://i.ytimg.com/vi/1z0ULvg_pW8/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&amp;rs=AOn4CLC_3z-32SF5cU1BHYpu5Dg0BbwS1g" width="168">
-              <span class="clock"><i class="far fa-clock"></i></span>
-              <span class="time">7:22</span>
-            </div>
-            <div class="details">
-              <p class="title">Hub, Switch, & Router Explained - What's the difference? </p>
-              <div class="more">
-                <div class="author">PowerCert Animated Videos <i class="fas fa-check-circle"></i></div>
-                <div class="views">1M views</div>
-              </div>
-            </div>
-          </div>
-          <div class="video">
-            <div>
-              <img id="img" class="style-scope yt-img-shadow" alt="" src="https://i.ytimg.com/vi/hNA7yw6Iqcc/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&amp;rs=AOn4CLAiNKTYG_zr-uxJ1bsSKdtN8NcJBg" width="168">
-              <span class="clock"><i class="far fa-clock"></i></span>
-              <span class="time">5:40</span>
-            </div>
-            <div class="details">
-              <p class="title">Why Your Aikido Will Fail on the Street -The Truth </p>
-              <div class="more">
-                <div class="author">Aikidoflow</div>
-                <div class="views">2.4M views</div>
-              </div>
-            </div>
-          </div>
-          <div class="video">
-            <div>
-              <img id="img" class="style-scope yt-img-shadow" alt="" src="https://i.ytimg.com/vi/lV9X2K8uEYE/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&amp;rs=AOn4CLCBC6q6dJIt2oIoGr1lDwxvk99KuQ" width="168">
-              <span class="clock"><i class="far fa-clock"></i></span>
-              <span class="time">5:06</span>
-            </div>
-            <div class="details">
-              <p class="title">How to create Data Entry Form in Excel - Ms Office?</p>
-              <div class="more">
-                <div class="author">Vicky's Blog</div>
-                <div class="views">3.4M views</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </aside>
+        </aside>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
