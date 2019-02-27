@@ -17,7 +17,7 @@ body {
 .main-header {
     width: 100%;
     height: 56px;
-    background-color: white;
+    background-color: black;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.03);
     position: fixed;
     top: 0;
@@ -29,6 +29,11 @@ body {
     padding-left: 30px;
     color: #aaa;
     font-size: 1.2rem;
+}
+
+#logo-text{
+color: white;
+margin-top: 20px;
 }
 
 .logo-container {
@@ -66,7 +71,6 @@ body {
 .video-player {
     height: 0;
     overflow: hidden;
-    position: relative;
     padding-bottom: 56.25%;
     width: 100%;
 }
@@ -310,7 +314,6 @@ body {
 }
 
 .video .time {
-  position: relative;
   right: -110px;
   color: white;
   bottom: 20px;
@@ -318,7 +321,6 @@ body {
 }
 
 .video .clock {
-  position: relative;
   top: -88px;
   color: white;
   left: 137px;
@@ -328,6 +330,11 @@ body {
 .video:hover .clock {
   opacity: 1;
 }
+.video-player, .video .time, .video .clock, .switch, .switch input + label {
+    position: relative;
+}
+
+
 
 /*** COMMENTS ***/
 .comment {
@@ -372,7 +379,6 @@ body {
 /**** ADDED FOR SWITCH ***/
 .switch {
   font-size: 1rem;
-  position: relative;
 }
 .switch input {
   position: absolute;
@@ -386,7 +392,6 @@ body {
   padding: 0;
 }
 .switch input + label {
-  position: relative;
   min-width: calc(calc(2.375rem * .8) * 2);
   border-radius: calc(2.375rem * .8);
   height: calc(2.375rem * .8);
